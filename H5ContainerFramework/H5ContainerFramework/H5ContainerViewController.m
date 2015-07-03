@@ -59,6 +59,9 @@
     if([[URL scheme] isEqualToString:@"myscheme"]){
         NSString* params =[URL resourceSpecifier];
         
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"debug：收到参数" message:params delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [alert show];
+        
         [self parseAndSaveList:params];
         return NO;
     }
