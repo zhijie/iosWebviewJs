@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 //{"tid":"18116273333","key_index":"99","key_tid":"DFESDF923498349XSDFSDFSDF"}
-@interface ItemModel : NSObject
+@interface AccountModel : NSObject<NSCoding>
 
 @property (nonatomic, strong) NSString* tid;
 @property (nonatomic, strong) NSString* keyIndex;

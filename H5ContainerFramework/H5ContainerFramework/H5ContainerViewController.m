@@ -7,7 +7,7 @@
 //
 
 #import "H5ContainerViewController.h"
-#import "ItemModel.h"
+#import "AccountModel.h"
 
 @interface H5ContainerViewController () {
     UIWebView* _webview;
@@ -78,12 +78,14 @@
         NSMutableArray* list = [[NSMutableArray alloc] init];
         NSArray* arr = [dic objectForKey:@"result"];
         for (NSDictionary* item in arr) {
-            ItemModel* m = [[ItemModel alloc] initWithDic:item];
+            AccountModel* m = [[AccountModel alloc] initWithDic:item];
             [list addObject:m];
         }
         
         //save to local
-        
+        NSString* tmpDir = NSTemporaryDirectory();
+        NSString* path = [tmpDir stringByAppendingPathComponent:@"account"];
+        [NSKeyedArchiver archiveRootObject:list toFile: path ];
         
         return  list;
     }
