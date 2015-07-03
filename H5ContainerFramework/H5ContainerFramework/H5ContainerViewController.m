@@ -21,10 +21,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"翼支付";
     
     _webview = [[UIWebView alloc] initWithFrame:self.view.bounds];
     _webview.delegate = self;
     [self.view addSubview:_webview];
+    
+    
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://121.40.151.203:8080/xyhmob/test.jsp"]];
+    [_webview loadRequest:request];
 }
 
 #pragma mark UIWebDelegate implementation
@@ -47,7 +52,7 @@
      
  }
 
-// js call: myscheme:string
+// js call: window.location.href = "myscheme://string"
 - (BOOL) webView:(UIWebView*)theWebView shouldStartLoadWithRequest:(NSURLRequest*)request navigationType:(UIWebViewNavigationType)navigationType
 {
     NSURL *URL =[request URL];

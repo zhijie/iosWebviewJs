@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import <H5ContainerFramework/H5ContainerViewController.h>
 
 @interface MasterViewController ()
 
@@ -54,7 +55,11 @@
 }
 
 #pragma mark - Table View
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    H5ContainerViewController* vc = [[H5ContainerViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }

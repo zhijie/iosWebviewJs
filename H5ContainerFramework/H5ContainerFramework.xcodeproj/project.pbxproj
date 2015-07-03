@@ -10,7 +10,7 @@
 		5DE451E81B466A6D00328F9B /* H5ContainerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE451E71B466A6D00328F9B /* H5ContainerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DE451EE1B466A6D00328F9B /* H5ContainerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE451E21B466A6D00328F9B /* H5ContainerFramework.framework */; };
 		5DE451F51B466A6D00328F9B /* H5ContainerFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE451F41B466A6D00328F9B /* H5ContainerFrameworkTests.m */; };
-		5DE452351B466AEB00328F9B /* H5ContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE452331B466AEB00328F9B /* H5ContainerViewController.h */; };
+		5DE452351B466AEB00328F9B /* H5ContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE452331B466AEB00328F9B /* H5ContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DE452361B466AEB00328F9B /* H5ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE452341B466AEB00328F9B /* H5ContainerViewController.m */; };
 		5DE452391B4674F600328F9B /* ItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE452371B4674F600328F9B /* ItemModel.h */; };
 		5DE4523A1B4674F600328F9B /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE452381B4674F600328F9B /* ItemModel.m */; };
