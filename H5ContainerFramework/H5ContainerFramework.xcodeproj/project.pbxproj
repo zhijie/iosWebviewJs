@@ -14,6 +14,10 @@
 		5DE452361B466AEB00328F9B /* H5ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE452341B466AEB00328F9B /* H5ContainerViewController.m */; };
 		5DE452391B4674F600328F9B /* ItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE452371B4674F600328F9B /* ItemModel.h */; };
 		5DE4523A1B4674F600328F9B /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE452381B4674F600328F9B /* ItemModel.m */; };
+		D5BAA8261B46E57600DA2B94 /* BestpaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BAA8241B46E57600DA2B94 /* BestpaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BAA8271B46E57600DA2B94 /* BestpaySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BAA8251B46E57600DA2B94 /* BestpaySDK.m */; };
+		D5BAA82A1B46E5F800DA2B94 /* OrderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BAA8281B46E5F800DA2B94 /* OrderModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BAA82B1B46E5F800DA2B94 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BAA8291B46E5F800DA2B94 /* OrderModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		5DE452341B466AEB00328F9B /* H5ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5ContainerViewController.m; sourceTree = "<group>"; };
 		5DE452371B4674F600328F9B /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
 		5DE452381B4674F600328F9B /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		D5BAA8241B46E57600DA2B94 /* BestpaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestpaySDK.h; sourceTree = "<group>"; };
+		D5BAA8251B46E57600DA2B94 /* BestpaySDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestpaySDK.m; sourceTree = "<group>"; };
+		D5BAA8281B46E5F800DA2B94 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
+		D5BAA8291B46E5F800DA2B94 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 				5DE452341B466AEB00328F9B /* H5ContainerViewController.m */,
 				5DE452371B4674F600328F9B /* ItemModel.h */,
 				5DE452381B4674F600328F9B /* ItemModel.m */,
+				D5BAA8241B46E57600DA2B94 /* BestpaySDK.h */,
+				D5BAA8251B46E57600DA2B94 /* BestpaySDK.m */,
+				D5BAA8281B46E5F800DA2B94 /* OrderModel.h */,
+				D5BAA8291B46E5F800DA2B94 /* OrderModel.m */,
 			);
 			path = H5ContainerFramework;
 			sourceTree = "<group>";
@@ -122,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE452391B4674F600328F9B /* ItemModel.h in Headers */,
+				D5BAA8261B46E57600DA2B94 /* BestpaySDK.h in Headers */,
+				D5BAA82A1B46E5F800DA2B94 /* OrderModel.h in Headers */,
 				5DE452351B466AEB00328F9B /* H5ContainerViewController.h in Headers */,
 				5DE451E81B466A6D00328F9B /* H5ContainerFramework.h in Headers */,
 			);
@@ -223,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BAA82B1B46E5F800DA2B94 /* OrderModel.m in Sources */,
+				D5BAA8271B46E57600DA2B94 /* BestpaySDK.m in Sources */,
 				5DE4523A1B4674F600328F9B /* ItemModel.m in Sources */,
 				5DE452361B466AEB00328F9B /* H5ContainerViewController.m in Sources */,
 			);
