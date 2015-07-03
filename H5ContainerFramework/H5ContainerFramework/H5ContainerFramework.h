@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 //! Project version number for H5ContainerFramework.
 FOUNDATION_EXPORT double H5ContainerFrameworkVersionNumber;
 
@@ -16,4 +17,5 @@ FOUNDATION_EXPORT const unsigned char H5ContainerFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <H5ContainerFramework/PublicHeader.h>
 
+#import "H5ContainerViewController.h"
 

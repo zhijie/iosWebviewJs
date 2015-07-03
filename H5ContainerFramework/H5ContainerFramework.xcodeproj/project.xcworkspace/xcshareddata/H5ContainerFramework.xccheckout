@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6026ECA6-27BC-4EA1-B6FA-05C2198C0AEE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>H5ContainerFramework</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>28AC230D693CD8CCF34BFBA38175CA1CB8080FAD</key>
 		<string>https://github.com/zhijie/iosWebviewJs.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>H5ContainerFramework/H5ContainerFramework.xcodeproj/project.xcworkspace</string>
+	<string>H5ContainerFramework/H5ContainerFramework.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>28AC230D693CD8CCF34BFBA38175CA1CB8080FAD</key>
