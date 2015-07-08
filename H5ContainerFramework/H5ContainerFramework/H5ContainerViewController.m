@@ -28,7 +28,7 @@
     [self.view addSubview:_webview];
     
     
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://121.40.151.203:8080/xyhmob/test.jsp"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://121.40.151.203:8080/xyhmob/"]];
     [_webview loadRequest:request];
 }
 
@@ -58,8 +58,9 @@
     NSURL *URL =[request URL];
     if([[URL scheme] isEqualToString:@"myscheme"]){
         NSString* params =[URL resourceSpecifier];
-        
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"debug：收到参数" message:params delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        NSString *decoded = (__bridge_transfer NSString *)CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL, (CFStringRef)params, CFSTR(""), kCFStringEncodingUTF8);
+
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"debug：收到参数" message:decoded delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         [alert show];
         
         [self parseAndSaveList:params];

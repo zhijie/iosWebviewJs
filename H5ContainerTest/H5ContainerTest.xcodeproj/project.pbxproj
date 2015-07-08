@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0B68181B4CF0F200828D8E /* H5ContainerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0B68171B4CF0F200828D8E /* H5ContainerFramework.framework */; };
+		5D0B68191B4CF0F200828D8E /* H5ContainerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0B68171B4CF0F200828D8E /* H5ContainerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5DE4520D1B466A9800328F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4520C1B466A9800328F9B /* main.m */; };
 		5DE452101B466A9800328F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4520F1B466A9800328F9B /* AppDelegate.m */; };
 		5DE452131B466A9800328F9B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE452121B466A9800328F9B /* MasterViewController.m */; };
@@ -15,8 +17,6 @@
 		5DE4521B1B466A9800328F9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE4521A1B466A9800328F9B /* Images.xcassets */; };
 		5DE4521E1B466A9800328F9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE4521C1B466A9800328F9B /* LaunchScreen.xib */; };
 		5DE4522A1B466A9800328F9B /* H5ContainerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE452291B466A9800328F9B /* H5ContainerTestTests.m */; };
-		D5BAA8211B46DBD400DA2B94 /* H5ContainerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BAA81C1B46DA9A00DA2B94 /* H5ContainerFramework.framework */; };
-		D5BAA8221B46DBD400DA2B94 /* H5ContainerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5BAA81C1B46DA9A00DA2B94 /* H5ContainerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D5BAA8221B46DBD400DA2B94 /* H5ContainerFramework.framework in Embed Frameworks */,
+				5D0B68191B4CF0F200828D8E /* H5ContainerFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D0B68171B4CF0F200828D8E /* H5ContainerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = H5ContainerFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/H5ContainerFramework-dkditluirrlrzqbgexcdeuluwskt/Build/Products/Debug-iphoneos/H5ContainerFramework.framework"; sourceTree = "<group>"; };
 		5DE452071B466A9800328F9B /* H5ContainerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H5ContainerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE4520B1B466A9800328F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE4520C1B466A9800328F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BAA8211B46DBD400DA2B94 /* H5ContainerFramework.framework in Frameworks */,
+				5D0B68181B4CF0F200828D8E /* H5ContainerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +85,7 @@
 		5DE451FE1B466A9800328F9B = {
 			isa = PBXGroup;
 			children = (
+				5D0B68171B4CF0F200828D8E /* H5ContainerFramework.framework */,
 				5DE452091B466A9800328F9B /* H5ContainerTest */,
 				5DE452261B466A9800328F9B /* H5ContainerTestTests */,
 				5DE452081B466A9800328F9B /* Products */,
@@ -376,6 +378,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/H5ContainerFramework-affmwfhhqccemtfjnzmnvhltffbd/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/H5ContainerFramework-dkditluirrlrzqbgexcdeuluwskt/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = H5ContainerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -390,6 +393,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/H5ContainerFramework-affmwfhhqccemtfjnzmnvhltffbd/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/H5ContainerFramework-dkditluirrlrzqbgexcdeuluwskt/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = H5ContainerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
